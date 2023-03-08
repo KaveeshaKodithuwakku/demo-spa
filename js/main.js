@@ -1,4 +1,4 @@
-
+hideContent();
 
 function hideContent(){
     document.getElementById('home').style.display="block";
@@ -6,8 +6,6 @@ function hideContent(){
     document.getElementById('sale').style.display = "none";
     document.getElementById('contact').style.display = "none";
 }
-
-hideContent();
 
 function showContent(sPosition) {
 
