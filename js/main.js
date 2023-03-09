@@ -1,12 +1,3 @@
-hideContent();
-
-function hideContent(){
-    document.getElementById('home').style.display="block";
-    document.getElementById('about').style.display = "none";
-    document.getElementById('sale').style.display = "none";
-    document.getElementById('contact').style.display = "none";
-}
-
 function showContent(sPosition) {
 
     if(sPosition == 1){
